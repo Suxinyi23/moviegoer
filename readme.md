@@ -26,29 +26,14 @@
 
   点击页面下方tabs中的Login即来到登录注册模块。登陆模块主要包含登录、注册、修改个人信息以及修改头像这四个主要功能。
 
-  <figure class="three">
-    <img src="/pics/未登陆.png" style="zoom:21%; " /><img src="pics/登陆.png" style="zoom:21%; " /><img src="pics/注册.png" style="zoom:21%; " />
-  </figure>
-
-  
-
-  
-
 以上是登陆注册模块的界面，其中注册模块，检查手机号格式的正确性，并且判断两次输入的密码是否一致。此外，后端云还会检查邮箱以及手机号是否与其他用户重复，防止同一个用户用相同的信息注册多个账号。
 
 登陆成功之后，用户就能在登陆页面看到自己的用户名和头像，点击白色的信息框即进入信息修改界面。	
 
-  <figure class="three">
-    <img src="pics/登陆成功.png" style="zoom:21%; " /><img src="pics/信息无变化.png" style="zoom:21%; " /><img src="pics/修改成功.png" style="zoom:21%; " />
-</figure>
 
 在修改信息界面可以进行个人信息的修改，包括用户名，电子邮箱地址，以及手机号码。点击save即可在bmob后端云中更新相应的信息，前端检测点击save时和用户之前的信息相比是否有变化，如果没有变化则通过消息提示框显示消息与之前相比没有变化，否则显示更新成功，并跳转到登陆成功的界面。
 
 在信息修改界面点击modify avatar即进入修改头像界面。
-
-  <figure class="half">
-    <img src="pics/修改头像.png" style="zoom:21%; " /><img src="pics/修改头像成功.png" style="zoom:21%; " />
-</figure>
 
   选择图片文件并上传，返回头像修改界面即可看到头像已经修改成功。
 
@@ -58,27 +43,15 @@
 
   点击页面下方tabs中的Home即来到论坛模块。论坛模块主要包括搜索帖子，发布帖子，回答帖子，以及关注感兴趣的人几个功能。
 
-  <figure class="three">
-    <img src="pics/论坛.png" style="zoom:21%; " /><img src="pics/搜索.png" style="zoom:21%; " /><img src="pics/提问.png" style="zoom:21%; " />
-  </figure>
-
   主页显示的是所有用户所发布的帖子，可以利用页面上方的搜索框对所有帖子进行搜索，可以分别对帖子的问题，Tag，以及提问者进行搜索。如上图第二张，在搜索框中输入搜索内容并点击Questioner即可搜索用户sxy所发布的帖子。
 
   点击右下角的蓝色圆形新建按钮，可以发布帖子，需要对帖子（问题）的标题，内容，以及Tag进行描述。发布成功后，新建的帖子就会出现在主页面。
 
   点击其中的一个帖子就进入了问答页面。
 
-  <figure class="half">
-    <img src="pics/问答.jpg" style="zoom:21%; " /><img src="pics/回答.png" style="zoom:21%; " />
-  </figure>
-
   点击蓝色的按钮“回答”即可回答问题，如上图所示，回答中会显示回答问题的时间。
 
   在问答页面还可以通过关注/取消关注按钮来选择是否关注提问者和问题回答者，这是为了在动态模块中看到自己关注的人发布的动态。
-
-  <figure class="half">
-    <img src="pics/点击关注.png" style="zoom:21%; " /><img src="pics/点击取消关注.png" style="zoom:21%; " />
-  </figure>
 
   如上图，表示关注和取消关注提问者，关注之后按钮上的文字变成了取消关注；取关之后按钮上的文字变成了关注。可以对问题回答者做类似的操作。
 
@@ -88,46 +61,23 @@
 
   动态模块主要包括三个功能，浏览好友动态（即自己以及所有自己关注的用户的动态），浏览自己的动态，以及创建新的动态。在浏览动态时，可以进行评论和点赞。
 
-  <figure >
-    <img src="pics/动态主页.png" style="zoom:21%; " /></figure>
 
   首先是浏览别人的动态，点击My Friends按钮即可进入。朋友圈的展示方式采用滑动方式。点击右下角的蓝色圆形新建按钮可以进行评论。
 
-  <figure class="half">
-    <img src="pics/朋友圈.png" style="zoom:21%; " /><img src="pics/评论.png" style="zoom:21%; " />
-  </figure>
 
   也可以对动态点赞，点赞之后爱心会变为红色，否则是黑色，点赞的数量也会随之变化。
 
-  <figure class="half">
-    <img src="pics/未点赞.png" style="zoom:21%; " /><img src="pics/点赞.png" style="zoom:21%; " />
-  </figure>
-
   还可以查看自己发布的动态，因为自己发布的动态的发布者都是自己，因此在My Moments中不显示动态的头像和用户名。
-
-  <figure >
-    <img src="pics/我的动态.png" style="zoom:21%; " /><img src="pics/个人动态.png" style="zoom:21%; " />
-  </figure>
 
   此外，用户可以发布新的动态，在最上方的文本框内输入动态的文字内容，再放选择至多三张图片，每次选择一张图片后点击Ok按钮加入下一章图片（当然也可以直接发表纯文字的朋友圈）。
 
-  <figure >
-    <img src="pics/发表图片动态.png" style="zoom:21%; " /><img src="pics/发布文字动态.png" style="zoom:21%; " />
-  </figure>
 
 - 消息模块
 
   消息模块用来通知别的用户对我发表的动态的通知和点赞情况。
 
-  <figure >
-    <img src="pics/通知.png" style="zoom:21%; " /><img src="pics/点赞通知.png" style="zoom:21%; " /><img src="pics/评论通知.png" style="zoom:21%; " />
-  </figure>
-
   小红点表示未读，没有小红点表示已读。点击任何一条消息可以定位到被点赞或者评论的动态，返回之后小红点会消失，以下以一条评论消息（用户wy评论的：喜欢快银小天使！）为例：
 
-  <figure >
-    <img src="pics/评论通知.png" style="zoom:21%; " /><img src="pics/读评论.png" style="zoom:21%; " /><img src="pics/评论已读.png" style="zoom:21%; " />
-  </figure>
 
   
 
