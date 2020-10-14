@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:12:127-180
+manifest
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [:CordovaLib] /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c7e65e5d71f72c2433a09e0e9ddf814e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/e09957fd82c4f9b56f5ef01ec2d33520/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/f42cf8b39621dcce1014286e7ae85c01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/83da73c9d439562b3d4e9fa4f442a58b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c160a662bcd249a0cf1a58adf2a23c67/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7f54ddb180f42d61afa430c9f6e47260/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/642d8bb64b472aa508f115f9418f64ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c4a9c76fb718d958117c032692467215/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/8e4de0ae6f8f646086ca504744406119/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7ab8e49ac56e2c8b04db32cb641cdc48/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:98-124
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:125-183
+	android:versionCode
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+	android:supportsRtl
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:182-208
+	android:label
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:88-120
+	android:hardwareAccelerated
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
+	android:networkSecurityConfig
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:5:121-181
+activity#io.ionic.starter.MainActivity
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:136-173
+	android:launchMode
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:174-204
+	android:windowSoftInputMode
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:296-338
+	android:configChanges
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:19-135
+	android:theme
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:233-295
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:6:205-232
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:17:22-77
+uses-sdk
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+MERGED from [:CordovaLib] /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c7e65e5d71f72c2433a09e0e9ddf814e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c7e65e5d71f72c2433a09e0e9ddf814e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/e09957fd82c4f9b56f5ef01ec2d33520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/e09957fd82c4f9b56f5ef01ec2d33520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/f42cf8b39621dcce1014286e7ae85c01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/f42cf8b39621dcce1014286e7ae85c01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/83da73c9d439562b3d4e9fa4f442a58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/83da73c9d439562b3d4e9fa4f442a58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c160a662bcd249a0cf1a58adf2a23c67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c160a662bcd249a0cf1a58adf2a23c67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7f54ddb180f42d61afa430c9f6e47260/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7f54ddb180f42d61afa430c9f6e47260/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/642d8bb64b472aa508f115f9418f64ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/642d8bb64b472aa508f115f9418f64ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c4a9c76fb718d958117c032692467215/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/c4a9c76fb718d958117c032692467215/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/8e4de0ae6f8f646086ca504744406119/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/8e4de0ae6f8f646086ca504744406119/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7ab8e49ac56e2c8b04db32cb641cdc48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/xinsu/.gradle/caches/transforms-2/files-2.1/7ab8e49ac56e2c8b04db32cb641cdc48/AndroidManifest.xml:20:5-44
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from /Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/src/main/AndroidManifest.xml:13:24-74

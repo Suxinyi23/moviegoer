@@ -1,0 +1,71 @@
+<!--
+  Generated template for the WritePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>write</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+<!--    <ion-label stacked>问题tag(以空格隔开)</ion-label>-->
+    <!--      多行文本的输入-->
+    <ion-textarea type="text"  placeholder="share your ideas!"  [(ngModel)]="content" autosize></ion-textarea>
+  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img id="show1"  src="http://localhost:8080/photo/blank.png" >
+
+      </ion-col>
+      <ion-col>
+        <img id="show2"  src="http://localhost:8080/photo/blank.png" >
+
+      </ion-col>
+      <ion-col>
+        <img id="show3" src="http://localhost:8080/photo/blank.png" >
+
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <ion-footer padding-bottom>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+
+          <button [hidden]="img_count!=1" ion-button>
+            <input type="file" (change)="loadImageFromDevice1($event)" id="file-input1"
+                   accept="image/png, image/jpeg">
+          </button>
+          <button [hidden]="img_count!=2" ion-button>
+            <input type="file" (change)="loadImageFromDevice2($event)" id="file-input2"
+                   accept="image/png, image/jpeg">
+          </button>
+          <button [hidden]="img_count!=3" ion-button>
+            <input type="file" (change)="loadImageFromDevice3($event)" id="file-input3"
+                   accept="image/png, image/jpeg">
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button  [hidden]="img_count>=4" (click)="selectImg()">OK!</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+<!--        <button [hidden]="device!='android'" ion-button icon-left >-->
+<!--          <ion-icon name="cloud"></ion-icon>Post it...-->
+<!--        </button>-->
+        <button  ion-button icon-left (click)="post()">
+          <ion-icon name="cloud"></ion-icon>Post it...
+        </button>
+      </ion-row>
+    </ion-grid>
+  </ion-footer>
+
+</ion-content>

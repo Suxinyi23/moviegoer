@@ -1,0 +1,29 @@
+<!--
+  Generated template for the LikesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>likes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card class="card" *ngFor="let f of feeds" (click)="gotoOneMomentPage(f['moment'], f['objectId'])">
+
+    <ion-item>
+      <p>{{f['owner_name']}}<i class="i" [hidden]="f['read']==true"></i></p>likes your moment!
+    </ion-item>
+
+
+<!--    <ion-card-content>-->
+<!--      <p>{{f['content']}}</p>-->
+<!--    </ion-card-content>-->
+
+  </ion-card>
+
+</ion-content>

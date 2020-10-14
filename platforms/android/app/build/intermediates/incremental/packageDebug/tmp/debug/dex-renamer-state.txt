@@ -1,0 +1,4 @@
+#Sun May 10 19:25:01 CST 2020
+base.0=/Users/xinsu/A_Courses/sofeware_engineer_development/myApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

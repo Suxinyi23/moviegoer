@@ -1,0 +1,73 @@
+<!--<ion-header>-->
+<!--  <ion-navbar>-->
+<!--    <ion-title>Home</ion-title>-->
+<!--  </ion-navbar>-->
+<!--</ion-header>-->
+
+<ion-header class="question">
+<!--  <ion-toolbar class="question">-->
+    <ion-searchbar  type="search" placeholder="search something about film" [(ngModel)]="search"></ion-searchbar>
+<!--    <button ng-click="search()"></button>-->
+<!--    <ion-icon name="create" class="top_header_message_icon" (click)="gotoQuestion()"></ion-icon>-->
+<!--  </ion-toolbar>-->
+<!--  <div >-->
+    <ion-grid class="floatMenu">
+<!--      <ion-grid >-->
+      <ion-row>
+        <ion-col col-4 text-center>
+          <div (click)="searchByTitle()">
+<!--            <ion-icon small name="search"></ion-icon> -->
+            Title
+          </div>
+        </ion-col>
+        <ion-col col-4 text-center>
+          <div (click)="searchByTag()">
+            <span style="float:left;color:#dddddd;">|</span>
+<!--            <ion-icon name="navigate-outline"></ion-icon> -->
+            Tag
+            <span style="float:right;color:#dddddd;">|</span>
+          </div>
+        </ion-col>
+        <ion-col col-4 text-center>
+          <div (click)="searchByPerson()">
+<!--            <ion-icon name="person-outline"></ion-icon> -->
+            Questioner
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+<!--  </div>-->
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card class="card" *ngFor="let f of feeds" (click)="gotoAnswerPage(f)">
+    <p>&nbsp;&nbsp;</p>
+    <h2>{{f['title']}}</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tags: {{f['tags']}}</p>
+    <ion-item>
+      <ion-avatar item-start>
+        <img  src="{{photo[f['index']]}}">
+      </ion-avatar>
+      <p>{{username[f['index']]}} 提出了该问题</p>
+    </ion-item>
+    <ion-card-content>
+      <p>{{f['context']}}</p>
+    </ion-card-content>
+<!--    <ion-row>-->
+<!--      <ion-col col-8 center text-left>-->
+<!--        <ion-note>-->
+<!--          20&nbsp;赞同&nbsp;&nbsp;·&nbsp;&nbsp;2&nbsp;评论-->
+<!--        </ion-note>-->
+<!--      </ion-col>-->
+<!--      <ion-col col-4></ion-col>-->
+<!--    </ion-row>-->
+    <p>&nbsp;&nbsp;</p>
+  </ion-card>
+
+  <ion-fab right bottom>
+    <button class="create" ion-fab (click)="gotoQuestion()">
+      <ion-icon name="create"></ion-icon>
+    </button>
+  </ion-fab>
+</ion-content>

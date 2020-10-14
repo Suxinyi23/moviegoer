@@ -1,0 +1,4 @@
+// GENERATED FILE - DO NOT EDIT
+include ":", 'app_'
+include ':mylibrary'
+project('app_').projectDir = new File('app')

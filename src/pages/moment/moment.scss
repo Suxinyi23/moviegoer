@@ -1,0 +1,26 @@
+page-moment {
+  .note-content {
+    background: #f1a6a6;
+    color: #f7f0f0;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    // max-height: 220px;
+    overflow: hidden;
+
+    .text {
+      max-height: 100px;
+      overflow: hidden;
+    }
+
+    .time {
+      margin-top: 10px;
+    }
+
+    ol {
+      margin: 0;
+      padding-left: 15px;
+    }
+  }
+
+}

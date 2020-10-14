@@ -1,0 +1,55 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>Register</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form>
+
+    <ion-grid>
+      <ion-row color="primary" justify-content-center>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+          <div padding>
+            <!--            <ion-item>-->
+            <!--              <ion-input  name="name" type="text" placeholder="Name" ngModel required></ion-input>-->
+            <!--            </ion-item>-->
+            <ion-item>
+              <ion-input name="phone" type="phone" placeholder="Phone Number"  ngModel required [(ngModel)]="phone"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="mail" type="mail" placeholder="your@exmaple.com"  ngModel required [(ngModel)]="mail"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="name" type="name" placeholder="Name"  ngModel required [(ngModel)]="name"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="password" type="password" placeholder="Password"  ngModel required [(ngModel)]="password"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="confirm" type="password" placeholder="Confirm"  ngModel required [(ngModel)]="confirm"></ion-input>
+            </ion-item>
+            <!--            <ion-item>-->
+            <!--              <ion-input name="confirm" type="password" placeholder="Password again" ngModel required></ion-input>-->
+            <!--            </ion-item>-->
+          </div>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+  </form>
+  <div padding>
+    <button ion-button color="primary" block (click)="register()">Register</button>
+  </div>
+  <div padding text-center>
+    <button ion-button color="primary" outline (click)="dismiss()">Have an account? Login!</button>
+  </div>
+
+</ion-content>

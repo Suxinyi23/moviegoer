@@ -1,0 +1,82 @@
+<!--
+  Generated template for the AnswerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Answer</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    <ion-card-content class="question">
+      <div >
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-item class="question">
+                <ion-avatar item-start>
+                  <img  src="{{owner_photo}}">
+                </ion-avatar>
+                <p> {{owner_username}} 提出了该问题</p>
+              </ion-item>
+              <ion-card-content>
+
+
+                <strong>
+                  {{question ? question['title'] : ''}}
+                </strong>
+
+
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <button ion-button small (click)="toFollow(owner_id,-1)">
+              <ion-icon name="Heart" ></ion-icon>&nbsp;{{following_owner==false ? "关注Ta" : "取消关注"}}</button>&nbsp;
+          </ion-row>
+        </ion-grid>
+
+      </div>
+      <div>
+        &nbsp;
+      </div>
+      <div>
+        {{question ? question['context'] : ''}}
+      </div>
+
+      <div>
+        &nbsp;
+      </div>
+<!--      <p>{{question?.LikeCount}}&nbsp;个关注&nbsp;&nbsp;&nbsp;&nbsp;{{question?.CommentCount}}&nbsp;个回答</p>-->
+      <div>
+        <button style=" float:right; " ion-button small (click)="showAddAnswerPage()">
+          <ion-icon name="add" ></ion-icon>&nbsp;回答</button>&nbsp;
+      </div>
+&nbsp;
+<!--      <button ion-button small color="secondary"  >-->
+<!--        &nbsp;{{question?.isFavourite ? '取消关注' : '关注'}}</button>-->
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngFor="let a of answersArray">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="{{photo[a['index']]}}">
+      </ion-avatar>
+      <p>{{a['username']}}
+
+        <button ion-button small style=" float:right; " (click)="toFollow(a['owner']['objectId'],a['index'])">
+        <ion-icon name="Heart" ></ion-icon>&nbsp;{{following[a['index']]==false ? "关注Ta" : "取消关注"}}</button>&nbsp;
+      </p>
+    </ion-item>
+
+    <ion-card-content>
+      <p>{{a['content']}}</p>
+      <p style=" float:right; " class="answer_date">{{a['createdAt']}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

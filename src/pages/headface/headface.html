@@ -1,0 +1,68 @@
+<!--
+  Generated template for the HeadfacePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<!--  <script>-->
+<!--    function change_pic() {-->
+<!--      const uploadsFile =document.getElementById("profilePhotoFileUpload");-->
+<!--      const resultFile = uploadsFile.files[0];-->
+<!--      var preview = document.getElementById("show");-->
+<!--      var reads= new FileReader();-->
+<!--      reads.readAsDataURL(resultFile);-->
+<!--      if(resultFile){-->
+<!--        reads.readAsDataURL(resultFile);-->
+<!--        //转换成功后-->
+<!--        reads.onloadend = function ()-->
+<!--        {-->
+<!--          preview.src=reads.result;-->
+<!--          console.log(reads.result);-->
+<!--        };-->
+<!--      }-->
+<!--    }-->
+<!--  </script>-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Set Avatar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h4 [hidden]="lastImg !== null">please upload a photo.</h4>
+<!--  <img id="show" [hidden]="lastImg === null" [src]="path" style="width:60%;height:60%;" >-->
+  <img id="show"   src="http://localhost:8080/photo/blank.png"  >
+  <ion-footer padding-bottom>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+<!--          <button [hidden]="device!='android'" ion-button icon-left (click)="presentActionSheet()">-->
+<!--            <ion-icon name="camera"></ion-icon>Choose a photo-->
+<!--          </button>-->
+<!--          <button [hidden]="device=='android'" ion-button>-->
+<!--            <input type="file" id="profilePhotoFileUpload"  accept="image/*">-->
+<!--          </button>-->
+                    <button  ion-button>
+                      <input type="file" (change)="loadImageFromDevice($event)" id="profilePhotoFileUpload"  accept="image/*">
+                    </button>
+        </ion-col>
+        <ion-col>
+<!--          <button [hidden]="device!='android'" ion-button icon-left (click)="uploadImage_0()">-->
+<!--            <ion-icon name="cloud"></ion-icon>Upload it...-->
+<!--          </button>-->
+<!--          <button [hidden]="device=='android'" ion-button icon-left (click)="web_chooseFromFile()">-->
+<!--            <ion-icon name="cloud"></ion-icon>Upload it...-->
+<!--          </button>-->
+<!--                    <button  ion-button icon-left (click)="web_chooseFromFile()">-->
+                    <button  ion-button icon-left (click)="upload2tomcat()">
+                      <ion-icon name="cloud"></ion-icon>Upload it...
+                    </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-footer>
+
+</ion-content>
